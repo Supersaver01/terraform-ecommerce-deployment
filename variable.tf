@@ -138,3 +138,18 @@ variable "ec2_kay_pair_name" {
     type        = string
 
 }
+
+#Route 53 Variable
+variable "domain_name" {
+    default     = "superonclouds.com"
+    description = "domain name"
+    type        = string
+
+}
+
+variable "record_name" {
+    default     = "www"
+    description = "sub domain name"
+    type        = string
+
+}
