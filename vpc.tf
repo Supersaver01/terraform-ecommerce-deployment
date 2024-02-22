@@ -97,7 +97,7 @@ resource "aws_subnet" "private_app_subnet_az2" {
   map_public_ip_on_launch  = false
 
   tags      = {
-    Name    = "Private App Subnet AZ1"
+    Name    = "Private App Subnet AZ2"
   }
 }
 
@@ -123,6 +123,6 @@ resource "aws_subnet" "private_data_subnet_az2" {
   map_public_ip_on_launch  = false
 
   tags      = {
-    Name    = "Private Data Subnet AZ1"
+    Name    = "Private Data Subnet AZ2"
   }
 }
