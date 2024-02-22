@@ -93,3 +93,11 @@ variable "multi_az_deployment" {
     type        = bool
 
 }
+
+#ALB Variables
+variable "ssl_certificate_arn" {
+    default     = "arn:aws:acm:us-east-1:969036648835:certificate/91cb9379-4c1c-4f2c-ac74-a191db276814"
+    description = "SSL certificate arn"
+    type        = string
+
+}
